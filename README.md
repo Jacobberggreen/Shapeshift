@@ -12,11 +12,9 @@
 Shapeshift sits in the menu bar. Drag a file with a modifier key held and a wheel of actions appears around the pointer: drop on a format to convert, or on a tool to edit. The same actions are in Finder's right-click menu. Everything runs on your Mac; nothing is uploaded and the original file is never changed.
 
 <p align="center">
-  <img src="docs/images/wheel-two-rings.png" width="330" alt="Two-ring wheel: formats outside, image tools inside">
-  &nbsp;&nbsp;
-  <img src="docs/images/wheel-split-ring.png" width="300" alt="Split ring for an image">
-  &nbsp;&nbsp;
-  <img src="docs/images/wheel-pdf-tools.png" width="230" alt="Wheel for a PDF: formats and PDF tools">
+  <img src="docs/images/wheel-two-rings.png" height="250" alt="Two-ring wheel: formats outside, image tools inside">
+  <img src="docs/images/wheel-split-ring.png" height="250" alt="Split ring for an image">
+  <img src="docs/images/wheel-pdf-tools.png" height="250" alt="Wheel for a PDF: formats and PDF tools">
 </p>
 
 ## Features
