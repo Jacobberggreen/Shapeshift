@@ -9,6 +9,16 @@
   Hold <b>Shift</b> while dragging a file and drop it on the format you want.
 </p>
 
+<p align="center">
+  <a href="https://github.com/Jacobberggreen/Shapeshift/actions/workflows/ci.yml">
+    <img src="https://github.com/Jacobberggreen/Shapeshift/actions/workflows/ci.yml/badge.svg" alt="CI">
+  </a>
+  <a href="https://github.com/Jacobberggreen/Shapeshift/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license">
+  </a>
+  <img src="https://img.shields.io/badge/macOS-13%2B-lightgrey" alt="macOS 13 or later">
+</p>
+
 Shapeshift sits in the menu bar. Drag a file with a modifier key held and a wheel of actions appears around the pointer: drop on a format to convert, or on a tool to edit. The same actions are in Finder's right-click menu. Everything runs on your Mac; nothing is uploaded and the original file is never changed.
 
 <p align="center">
