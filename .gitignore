@@ -1,0 +1,16 @@
+# Build output
+.build/
+build/
+*.app
+*.dmg
+.swiftpm/
+DerivedData/
+*.xcodeproj/xcuserdata/
+
+# macOS / sync noise
+.DS_Store
+# iCloud / Finder conflict copies ("Name 2.swift")
+* [0-9].*
+
+# Local tooling
+.superpowers/
