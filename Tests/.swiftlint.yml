@@ -1,0 +1,5 @@
+# Tests may trap on setup failures; that is how they fail fast.
+disabled_rules:
+  - force_try
+  - force_cast
+  - optional_data_string_conversion

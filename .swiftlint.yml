@@ -1,0 +1,23 @@
+# Minimal config: catches real problems without restyling the existing code.
+included:
+  - Sources
+  - Tests
+excluded:
+  - .build
+  - build
+disabled_rules:
+  - line_length
+  - function_body_length
+  - type_body_length
+  - file_length
+  - cyclomatic_complexity
+  - identifier_name
+  - type_name
+  - large_tuple
+  - function_parameter_count
+  - nesting
+  - todo
+  - trailing_comma
+  - statement_position
+  - implicit_optional_initialization
+  - vertical_whitespace
