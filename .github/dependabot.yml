@@ -4,7 +4,7 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-    labels: ["dependencies", "github-actions"]
+    labels: ["dependencies", "github_actions"]
     commit-message:
       prefix: "ci"
     groups:
