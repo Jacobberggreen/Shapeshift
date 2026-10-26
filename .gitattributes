@@ -1,0 +1,10 @@
+# Normalise line endings; shell scripts must stay LF
+* text=auto
+*.sh text eol=lf
+
+# Binary files: never diff or merge as text
+*.png binary
+*.icns binary
+*.pdf binary
+*.dmg binary
+*.car binary
