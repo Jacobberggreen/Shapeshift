@@ -9,7 +9,17 @@
   <a href="https://github.com/Jacobberggreen/Shapeshift/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license">
   </a>
+  <a href="https://github.com/Jacobberggreen/Shapeshift/releases/latest">
+    <img src="https://img.shields.io/github/v/release/Jacobberggreen/Shapeshift" alt="Latest release">
+  </a>
   <img src="https://img.shields.io/badge/macOS-13%2B-lightgrey" alt="macOS 13 or later">
+  <img src="https://img.shields.io/badge/Swift-6-orange" alt="Swift 6">
+  <a href="https://github.com/Jacobberggreen/Shapeshift/commits/main">
+    <img src="https://img.shields.io/github/last-commit/Jacobberggreen/Shapeshift" alt="Last commit">
+  </a>
+  <a href="https://github.com/Jacobberggreen/Shapeshift/stargazers">
+    <img src="https://img.shields.io/github/stars/Jacobberggreen/Shapeshift?style=flat" alt="GitHub stars">
+  </a>
 </p>
 
 <p align="center">
