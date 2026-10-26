@@ -85,6 +85,29 @@ The rest of this page (building from source, project layout) is only for people 
 
 The trigger keys, menu style (two rings, split ring, two steps or classic grid), glass style, highlight colour and start at login are in **Settings** (menu bar icon › Settings…). Showing the menu while you drag needs the Input Monitoring permission, which Settings helps you grant.
 
+## FAQ and known limitations
+
+**Why does the first launch need right-click › Open?**
+The app is signed ad hoc and not notarized, so Gatekeeper asks you to confirm it once. After that it opens normally.
+
+**Why does Shapeshift ask for Input Monitoring?**
+It is needed to notice the trigger key and the drag so the wheel can appear while you drag. Shapeshift does not record or send anything. Settings has a button that opens the right System Settings pane. Without the permission, Finder's right-click menu still works.
+
+**Nothing happens when I Shift-drag a file.**
+Check that Input Monitoring is granted (Settings shows the status) and that the trigger key in Settings matches the one you hold. Audio and video files only get a wheel if ffmpeg is installed.
+
+**Audio or video formats are missing.**
+Install ffmpeg with `brew install ffmpeg` and restart Shapeshift.
+
+**Where do converted files go?**
+Next to the original, as a new file. If a name is taken the new file becomes `name 2.ext`; nothing is ever overwritten and the original is never changed.
+
+**Known limitations**
+- Apple Silicon only; macOS 13 or later.
+- SVG output embeds the image as a PNG, it is not a vector trace.
+- Complex Word layouts (headers, columns, floating images) can differ from Word because documents are laid out by the macOS text engine.
+- PDFs are not OCR'd and password-protected PDFs are not supported.
+
 ## Build from source (for developers)
 
 Requires macOS 13 or later (the macOS 26 SDK to build the Liquid Glass code), Apple Silicon, and Xcode with the Swift 6 toolchain.
