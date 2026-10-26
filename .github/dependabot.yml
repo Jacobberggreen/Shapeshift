@@ -4,7 +4,19 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    labels: ["dependencies", "github_actions"]
+    commit-message:
+      prefix: "ci"
+    groups:
+      actions:
+        patterns: ["*"]
   - package-ecosystem: "swift"
     directory: "/"
     schedule:
       interval: "weekly"
+    labels: ["dependencies", "swift"]
+    commit-message:
+      prefix: "deps"
+    groups:
+      swift-packages:
+        patterns: ["*"]
