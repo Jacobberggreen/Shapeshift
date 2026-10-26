@@ -51,6 +51,11 @@ cat > "$APP/Contents/Info.plist" <<'PLIST'
 </plist>
 PLIST
 
+# Release builds pass VERSION (for example from the git tag); otherwise the default above is kept.
+if [ -n "${VERSION:-}" ]; then
+  plutil -replace CFBundleShortVersionString -string "$VERSION" "$APP/Contents/Info.plist"
+fi
+
 [ -f Resources/MenuBarIcon.pdf ] && cp Resources/MenuBarIcon.pdf "$APP/Contents/Resources/"
 
 # App icon: Resources/AppIcon.icon (made in Icon Composer) compiled to Assets.car + AppIcon.icns. actool needs an absolute path.
