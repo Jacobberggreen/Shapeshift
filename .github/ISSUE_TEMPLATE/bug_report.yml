@@ -1,0 +1,68 @@
+name: Bug report
+description: Something converts or edits wrongly, crashes, or does not appear
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for the report. The more detail, the faster it can be fixed.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Hold Shift and drag a .heic file
+        2. Drop it on PNG
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Shapeshift version
+      description: From the release you downloaded, or `git rev-parse --short HEAD` if built from source.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "26.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: trigger
+    attributes:
+      label: How did you start it?
+      options:
+        - Shift-drag (convert)
+        - Shift+Option-drag (tools)
+        - Finder right-click
+        - Menu bar
+        - Not sure
+  - type: input
+    id: filetype
+    attributes:
+      label: File type involved
+      description: The source format and the target or tool, for example "HEIC to PNG" or "PDF Merge".
+  - type: dropdown
+    id: ffmpeg
+    attributes:
+      label: Is ffmpeg installed?
+      description: Needed for audio and video only.
+      options:
+        - "Yes"
+        - "No"
+        - Not relevant
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or other details
+      description: Do not attach files you consider private.

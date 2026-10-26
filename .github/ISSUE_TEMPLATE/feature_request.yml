@@ -1,0 +1,24 @@
+name: Feature request
+description: Suggest a format, tool or improvement
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the situation, not only the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Shapeshift to do?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you have tried
+  - type: markdown
+    attributes:
+      value: Shapeshift runs locally and never modifies the original file. Ideas that need uploads or accounts will not fit.
