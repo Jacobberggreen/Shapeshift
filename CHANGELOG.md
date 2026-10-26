@@ -1,6 +1,10 @@
 # Changelog
 
-## 1.0.0
+All notable changes to Shapeshift are documented here. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses [Semantic Versioning](https://semver.org/).
+
+## [Unreleased]
+
+## [1.0.0] - 2026-10-21
 
 First complete release.
 
@@ -11,3 +15,6 @@ First complete release.
 - Pie-wheel menu with a live outcome preview (new format and estimated size), plus Two rings, Split ring, Two steps and Classic grid menu styles.
 - Liquid Glass look on macOS 26 (frosted material before), selectable selection colour, tabbed Settings, start at login.
 - App icon and status bar icon, disk image installer.
+
+[Unreleased]: https://github.com/Jacobberggreen/Shapeshift/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/Jacobberggreen/Shapeshift/releases/tag/v1.0.0
