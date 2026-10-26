@@ -21,3 +21,4 @@ disabled_rules:
   - statement_position
   - implicit_optional_initialization
   - vertical_whitespace
+  - optional_data_string_conversion
